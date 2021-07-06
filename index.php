@@ -17,13 +17,13 @@
     <div class="col-lg-3"></div>
     <div class="col-lg-6">
 
-      <form id="form" method="GET" action="recherche.php">
+      <form id="form" method="GET" action="">
 
         <h2>Recherchez un élément</h2>
 
         <br><br>
 
-        <input type="search"  id="search" name="searchBox" class="form-control" autocomplete="off" placeholder="Cherchez un élément..." required="required">
+        <input type="search"  id="search" name="searchBox" class="form-control" autocomplete="off" placeholder="Cherchez un élément..." required>
         <ul></ul>
 
         <button type="submit" class="btn btn-primary">Rechercher</button>
