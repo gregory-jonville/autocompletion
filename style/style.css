@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    background-image: url('../vendor/img/back.jpg');
+}
+
+h2 {
+    text-align: center;
+}
+
+.col-lg-6 input, li {
+    margin: 0 auto;
+    width: 300px;
+}
+.col-lg-6 label {
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+ul li:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+button {
+    margin: 10px auto;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
